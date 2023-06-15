@@ -12,7 +12,6 @@ C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\n
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\AuthenticationAPI.runtimeconfig.json
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\AuthenticationAPI.runtimeconfig.dev.json
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\AuthenticationAPI.dll
-C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\ref\AuthenticationAPI.dll
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\AuthenticationAPI.pdb
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\Humanizer.dll
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -51,7 +50,6 @@ C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\n
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\staticwebassets\AuthenticationAPI.StaticWebAssets.Manifest.cache
-C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\staticwebassets\AuthenticationAPI.StaticWebAssets.xml
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\scopedcss\bundle\AuthenticationAPI.styles.css
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\AuthenticationAPI.RazorTargetAssemblyInfo.cache
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\AuthenticationAPI.csproj.CopyComplete
@@ -59,3 +57,10 @@ C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\n
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\ref\AuthenticationAPI.dll
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\AuthenticationAPI.pdb
 C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\AuthenticationAPI.genruntimeconfig.cache
+C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\bin\Debug\net5.0\AuthenticationAPI.StaticWebAssets.xml
+C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\staticwebassets\AuthenticationAPI.StaticWebAssets.Pack.cache
+C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\staticwebassets\msbuild.AuthenticationAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\staticwebassets\msbuild.build.AuthenticationAPI.props
+C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.AuthenticationAPI.props
+C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.AuthenticationAPI.props
+C:\Users\user\Desktop\LAB2\UserManagementComponent\AuthenticationAPI\obj\Debug\net5.0\refint\AuthenticationAPI.dll

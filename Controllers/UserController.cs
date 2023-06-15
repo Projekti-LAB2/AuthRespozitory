@@ -4,6 +4,7 @@ using AuthenticationAPI.Context;
 using AuthenticationAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using AngularAuthAPI.Helpers;
 
 namespace AuthenticationAPI.Controllers {
 
@@ -35,6 +36,9 @@ namespace AuthenticationAPI.Controllers {
             if(userObj == null) {
                 return BadRequest();
             }
+            userObj.Password = PasswordHasher.HashPassword(userObj.Password);
+            userObj.Role = "User";
+            userObj.Token = "";
             await _authContext.Users.AddAsync(userObj);
             await _authContext.SaveChangesAsync();
 

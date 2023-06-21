@@ -5,8 +5,7 @@ namespace AngularAuthAPI.Helpers
 {
     public class PasswordHasher
     {
-        public PasswordHasher()
-        {
+        public PasswordHasher() { }
 
         private static RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
         private static readonly int SaltSize = 16;
@@ -18,7 +17,7 @@ namespace AngularAuthAPI.Helpers
             byte[] salt;
             rng.GetBytes(salt = new byte[SaltSize]);
             var key = new Rfc2898DeriveBytes(password, salt, Iterations);
-            var hash = key.GetBytes(hashSize);
+            var hash = key.GetBytes(HashSize);
 
             var hashBytes = new byte[SaltSize + HashSize];
             Array.Copy(salt, 0, hashBytes, 0, SaltSize);
@@ -33,7 +32,7 @@ namespace AngularAuthAPI.Helpers
         {
             var hashBytes = Convert.FromBase64String(base64Hash);
 
-            var salt = new bool[SaltSize];
+            var salt = new byte[SaltSize];
             Array.Copy(hashBytes, 0, salt, 0, SaltSize);
 
             var key = new Rfc2898DeriveBytes(password, salt, Iterations);
@@ -45,10 +44,9 @@ namespace AngularAuthAPI.Helpers
                 {
                     return false;
                 }
-                return true;
             }
+            return true;
         }
     }
-}
 }
 

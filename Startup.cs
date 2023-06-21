@@ -13,6 +13,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using AuthenticationAPI.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
 
 namespace AuthenticationAPI
 {
@@ -46,10 +50,34 @@ namespace AuthenticationAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AuthenticationAPI", Version = "v1" });
             });
             services.AddDbContext<AppDbContext>(option => {
+                var connectionString = "Data Source=DESKTOP-RLODGDR; Initial Catalog = AuthenticationAPIDb; Integrated Security= true;";
+                if (Configuration.GetConnectionString("SqlServerConnStr") != null)
+                {
+
                 option.UseSqlServer(Configuration.GetConnectionString("SqlServerConnStr"));
+                }else
+                {
+                    option.UseSqlServer(connectionString);
+                }
             });
 
-            
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("veryverysecret.....")),
+                    ValidateAudience = false,
+                    ValidateIssuer = false,
+                    //ClockSkew = TimeSpan.Zero
+                };
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

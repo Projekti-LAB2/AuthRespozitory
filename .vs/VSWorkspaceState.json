@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Helpers"
+    "\\Controllers",
+    "\\Helpers",
+    "\\Models"
   ],
-  "SelectedNode": "\\AuthenticationAPI.csproj",
   "PreviewInSolutionExplorer": false
 }

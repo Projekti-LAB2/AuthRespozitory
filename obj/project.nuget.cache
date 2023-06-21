@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CARKRbLZi46q+2HTngXxw8JplqdzE5YlmVV/hDprmQ0qYBUnFXPOzWLnpcJsybefWIwdrUsCSKQob/zoC+2cBw==",
+  "dgSpecHash": "hDJHfFhC+ShugkwkqRtUf0Kni/QBjV9w7RAY+A6Vgo/EpicSipxsKzDk+7FVJdtFqOzt3jnK28ZWp4/PZqXg6Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\LAB2\\UserManagementComponent\\AuthenticationAPI\\AuthenticationAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.4\\microsoft.aspnetcore.authentication.jwtbearer.5.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
